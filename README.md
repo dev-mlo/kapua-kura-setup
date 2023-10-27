@@ -85,7 +85,10 @@ Now every service should be running on the Raspberry PI and can be used.
 ---------------------------------------------------
 
 ## Kapua-Console
-The _Kapua_ console is __NOT__ running on the Raspberry PI.  
+You can run the _Kapua_ console on any other machine if you have
+trouble to build the docker image. This may happen because the
+console is written in a deprecated web technology (GWT).
+
 We are running the console on another x64 system because there
 is an existing image on Docker Hub for this Architecture we
 can use. So we don't have to build the console from the sources.
