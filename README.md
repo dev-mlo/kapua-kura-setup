@@ -2,6 +2,10 @@ This document describes how to build, install and setup
 _Kapua_ and _Kura_. _Kapua_ and _Kura_ needs Unix system to build
 and run.
 
+Also have a look at the ESF Dokumentation:
+* Kura: https://esf.eurotech.com/docs
+* Kapua: https://ec.eurotech.com/docs
+
 
 # Run _Kapua_ on Raspberry PI (64bit, 8GB RAM)
 
@@ -175,13 +179,13 @@ Define the following parameters
 #### MqttDataTransport
 Define the following parameters
 
-| Paramter name             | Note                                                                                                                                                | Example                          |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|
-| Broker URL                | URL to the running _Kapua_ Instance ```mqtt://<ip-to-kapua>:1883```                                                                                 | ```mqtt://192.168.178.37:1883``` |
-| Topc Context Account-Name | Name of the Child Account of _Kapua_. Must contain a user with defined credentials                                                                  | ```ACME123```                    |
-| Username                  | A name of a user of the defined child account                                                                                                       | ```user123``                     |
-| Password                  | The corresponding password of the child account                                                                                                     | ```kura@Kapua123```              |
-| Client-id                 | An ID for this __Kura__ instance. In _Kapua_ it will be listed as a device. Should be the same as the "Devise Custom-Name" from "CloudService" tab  | ```rpi-1```                      |
+| Paramter name             | Note                                                                                                                                               | Example                          |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------|
+| Broker URL                | URL to the running _Kapua_ Instance ```mqtt://<ip-to-kapua>:1883```                                                                                | ```mqtt://192.168.178.37:1883``` |
+| Topc Context Account-Name | Name of the Child Account of _Kapua_. Must contain a user with defined credentials                                                                 | ```ACME123```                    |
+| Username                  | A name of a user of the defined child account                                                                                                      | ```user123```                    |
+| Password                  | The corresponding password of the child account                                                                                                    | ```kura@Kapua123```              |
+| Client-id                 | An ID for this __Kura__ instance. In _Kapua_ it will be listed as a device. Should be the same as the "Devise Custom-Name" from "CloudService" tab | ```rpi-1```                      |
 
 ![MqttDataTransport](/doc/kura_2_mqtt_data_transport.png)
 
